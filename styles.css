@@ -1,4 +1,4 @@
-.mainbody{
+body{
     background-image:linear-gradient(to top,rgb(55, 123, 224),rgba(214, 221, 177, 0.747));
     background-size: cover;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ div{
 .mainul{
     color:black;
     margin-left: 825px;
-    margin-top: 35px;
+    margin-top: 25px;
     font-family: Cambria, Times,serif;
     font-size: 24px;
     
@@ -26,8 +26,31 @@ div{
     font-size: 40px;
 }
 
-.gif{
-    margin-left: 675px;
+.image{
+    margin-left: 700px;
     margin-top: 25px;
     border: 2px solid black;
+}
+
+.mainol{
+    color:black;
+    margin-left: 825px;
+    margin-top: 15px;
+    font-family: Cambria, Times, serif;
+    font-size: 18px;
+    
+}
+
+.header{
+    color: black;
+    margin-left: 800px;
+    margin-top: 15px;
+    font-family: Cambria, Times, serif;
+    font-size: 35px;
+}
+
+.return{
+    color: black;
+    margin-bottom: 200px;
+    margin-left: 1700px;
 }
