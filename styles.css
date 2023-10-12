@@ -2,6 +2,7 @@ body{
     background-image:linear-gradient(to top,rgb(55, 123, 224),rgba(214, 221, 177, 0.747));
     background-size: cover;
     background-attachment: fixed;
+    align-items: center;
 }
 
 div{
@@ -14,7 +15,13 @@ div{
     margin-top: 25px;
     font-family: Cambria, Times,serif;
     font-size: 24px;
-    
+    border: 2px solid black ;
+    display: table;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    background-color: rgb(182, 185, 236);
+    border-radius: 8px;
 }
 
 .title{
@@ -29,15 +36,23 @@ div{
 .image{
     margin-left: 700px;
     margin-top: 25px;
-    border: 2px solid black;
+    border: 03px solid rgb(17, 37, 53);
+    border-radius: 15px;
 }
 
 .mainol{
     color:black;
-    margin-left: 825px;
+    margin-left: 700px;
     margin-top: 15px;
     font-family: Cambria, Times, serif;
-    font-size: 18px;
+    font-size: 20px;
+    border: 2px solid black;
+    display: table;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border-radius: 7px;
+    background-color: rgb(182,185,236);
     
 }
 
@@ -47,10 +62,24 @@ div{
     margin-top: 15px;
     font-family: Cambria, Times, serif;
     font-size: 35px;
+    text-decoration: underline;
 }
 
 .return{
     color: black;
     margin-bottom: 200px;
     margin-left: 1700px;
+    border: 2px black solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rgb(164, 204, 211);
+}
+
+a {color: black; text-decoration: none;}
+a:hover {text-decoration: none; color:chocolate;}
+
+
+.flex_container{ 
+    display: flex;
+    flex-direction: column;
 }
